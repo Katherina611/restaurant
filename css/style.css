@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+.header {
+  height: 700px;
+  background-image: url("../images/img2.jpg");
+  background-size: cover; }
+  .header .menu {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center; }
+    .header .menu li {
+      list-style: none;
+      margin: 50px; }
+      .header .menu li a {
+        text-decoration: none;
+        color: white; }
+
+/*# sourceMappingURL=style.css.map */
