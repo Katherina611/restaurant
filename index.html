@@ -3,14 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/jquery.datetimepicker.css">
     <title>Ristorante</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery.datetimepicker.full.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond" rel="stylesheet">
 </head>
 <body>
     <header>
         <div class="header">
-            <div class="header-box">
+            <article class="header-box">
                 <p class="name">Ristorante</p>
                 <hr>
                 <p class="welcome">Welcome !</p>
@@ -19,7 +22,27 @@
                                 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
                                 ut aliquip ex ea commodo consequat.
                 </span>
-            </div>
+                <p class="reservetion">Reservation</p>
+                <form>
+                    <fieldset class="date">Date
+                        <label>
+                            <input id="datetime">
+                        </label>
+                    </fieldset>
+                    <fieldset class="person">Party Size
+                        <label>
+                            <select>
+                                <option>1 person</option>
+                                <option>2 person</option>
+                                <option>3 person</option>
+                                <option>4 person</option>
+                                <option>5 person</option>
+                                <option>6 person</option>
+                            </select>
+                        </label>
+                    </fieldset>
+                </form>
+            </article>
             <nav>
                 <ul class="menu">
                     <li><a href="index.html">HOME</a></li>
