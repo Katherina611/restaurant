@@ -86,6 +86,7 @@
         margin-left: 20px;
         padding:5px;
         margin-top: 20px;
+        margin-bottom: 30px;
         input,select{
           font-family: 'Cormorant Garamond', serif;
           background-color:rgba(106, 109, 108,0);
@@ -100,6 +101,12 @@
             border: 0;
           }
         }
+      }
+      .adress{
+        font-size: 16px;
+        font-family: 'Cormorant Garamond', serif;
+        text-align: center;
+        margin-top: 5px;
       }
     }
   }
