@@ -11,6 +11,7 @@
     $close.addEventListener('click',hideMenu);
 
     //function
+    //added calendar
     $('#datetime').datetimepicker();
 
     function showMenu(){

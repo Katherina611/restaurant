@@ -34,7 +34,7 @@
         height: 50px; }
       .header .header-box div .close {
         display: none;
-        font-weight: 700; }
+        font-weight: 900; }
     .header .header-box .name, .header .header-box .welcome, .header .header-box .reservetion {
       font-size: 26px;
       font-family: 'Cormorant Garamond', serif;
@@ -107,7 +107,8 @@
         margin-left: 40px; }
         .header .menu li a {
           text-decoration: none;
-          color: grey; }
+          color: grey;
+          text-transform: uppercase; }
     .header .header-box {
       background-color: rgba(106, 109, 108, 0.5);
       height: 750px;

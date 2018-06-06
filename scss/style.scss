@@ -39,7 +39,7 @@
         }
         .close{
           display: none;
-          font-weight: 700;
+          font-weight: 900;
         }
       }
       .name, .welcome, .reservetion{
@@ -126,6 +126,7 @@
         a {
           text-decoration: none;
           color:grey;
+          text-transform: uppercase;
         }
       }
     }
