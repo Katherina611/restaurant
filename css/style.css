@@ -34,7 +34,8 @@
         height: 50px; }
       .header .header-box div .close {
         display: none;
-        font-weight: 900; }
+        width: 30px;
+        height: 30px; }
     .header .header-box .name, .header .header-box .welcome, .header .header-box .reservetion {
       font-size: 26px;
       font-family: 'Cormorant Garamond', serif;
