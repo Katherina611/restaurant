@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
 }
+@import "restaurant";
 @media(max-width: 450px){
   .header{
     .menu{
@@ -22,7 +23,7 @@
     .header-box{
       background-color: rgb(35, 35, 35);
       height: 750px;
-      width:350px;
+      max-width:450px;
       margin-top: -50px;
       display: flex;
       flex-direction: column;

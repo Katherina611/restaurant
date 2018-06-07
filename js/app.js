@@ -7,13 +7,23 @@
           $close = document.querySelector('.close');
 
     //event listeners
+    document.addEventListener('DOMContentLoaded', documentReady);
     $menuIcon.addEventListener('click',showMenu);
     $close.addEventListener('click',hideMenu);
 
     //function
-    //added calendar
-    $('#datetime').datetimepicker();
 
+    //document ready
+    function documentReady(){
+        const calendar = document.querySelector('.date');
+        if(calendar){
+            //added calendar
+            $('#datetime').datetimepicker();
+        }
+    }
+
+
+    //show  and hide menu
     function showMenu(){
         $header.prepend($menuBox);
         $menu.forEach(li =>{

@@ -1,0 +1,139 @@
+@media(max-width: 450px) {
+  header {
+    .menu {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      li {
+        list-style: none;
+        margin-left: 10px;
+        display: none;
+        a {
+          text-decoration: none;
+          color: white;
+        }
+      }
+    }
+    .header-box {
+      background-color: rgb(35, 35, 35);
+      max-width: 450px;
+      margin-top: -50px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      color: white;
+      div {
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 50px;
+        margin-right: 20px;
+        img {
+          width: 50px;
+          height: 50px;
+        }
+        .close {
+          display: none;
+          width: 30px;
+          height: 30px;
+        }
+      }
+    }
+  }
+  .box-1{
+    margin-top: -70px;
+    height: 700px;
+    background-image: url("../images/img2.jpg");
+    background-size: cover;
+    .about{
+      max-width:450px;
+      height:700px;
+      background-color: rgba(106, 109, 108,0.5);
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      .description{
+        font-size: 30px;
+        font-family: 'Cormorant Garamond', serif;
+      }
+      hr{
+        width:250px;
+        color:black;
+        margin: 50px 40px;
+        background-color: black;
+        height: 1px;
+        border: 0;
+      }
+      .story{
+        font-size: 16px;
+        font-family: 'Cormorant Garamond', serif;
+        margin:0 30px;
+        text-align: center;
+      }
+    }
+  }
+}
+@media(min-width:450px){
+  .header-restaurant{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    .menu {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      li {
+        list-style: none;
+        margin-top: 50px;
+        margin-left: 40px;
+        a {
+          text-decoration: none;
+          color: grey;
+          text-transform: uppercase;
+        }
+      }
+    }
+    .header-box {
+      img {
+        display: none;
+      }
+      .close {
+        display: none;
+      }
+    }
+  }
+  .box-1{
+    margin-top: -70px;
+    height: 700px;
+    background-image: url("../images/img2.jpg");
+    background-size: cover;
+    .about{
+      width:350px;
+      height:700px;
+      background-color: rgba(106, 109, 108,0.5);
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      .description{
+        font-size: 30px;
+        font-family: 'Cormorant Garamond', serif;
+      }
+      hr{
+        width:250px;
+        color:black;
+        margin: 50px 40px;
+        background-color: black;
+        height: 1px;
+        border: 0;
+      }
+      .story{
+        font-size: 16px;
+        font-family: 'Cormorant Garamond', serif;
+        margin:0 30px;
+        text-align: center;
+      }
+    }
+  }
+}
