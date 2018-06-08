@@ -11,7 +11,7 @@
         display: none;
         a {
           text-decoration: none;
-          color: white;
+          color: black;
         }
       }
     }
@@ -26,11 +26,11 @@
       div {
         display: flex;
         justify-content: flex-end;
-        margin-top: 50px;
+        margin-top: 80px;
         margin-right: 20px;
         img {
-          width: 50px;
-          height: 50px;
+          width: 30px;
+          height: 30px;
         }
         .close {
           display: none;
@@ -103,36 +103,40 @@
       }
     }
   }
-  .box-1{
+  section{
+    display: flex;
+    flex-direction: row;
     margin-top: -70px;
     height: 700px;
     background-image: url("../images/img2.jpg");
     background-size: cover;
-    .about{
-      width:350px;
-      height:700px;
-      background-color: rgba(106, 109, 108,0.5);
-      display: flex;
-      justify-content: center;
-      flex-direction: column;
-      align-items: center;
-      .description{
-        font-size: 30px;
-        font-family: 'Cormorant Garamond', serif;
-      }
-      hr{
-        width:250px;
-        color:black;
-        margin: 50px 40px;
-        background-color: black;
-        height: 1px;
-        border: 0;
-      }
-      .story{
-        font-size: 16px;
-        font-family: 'Cormorant Garamond', serif;
-        margin:0 30px;
-        text-align: center;
+    .box-1 {
+      .about {
+        width: 350px;
+        height: 700px;
+        background-color: rgba(106, 109, 108, 0.5);
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        .description {
+          font-size: 30px;
+          font-family: 'Cormorant Garamond', serif;
+        }
+        hr {
+          width: 250px;
+          color: black;
+          margin: 50px 40px;
+          background-color: black;
+          height: 1px;
+          border: 0;
+        }
+        .story {
+          font-size: 16px;
+          font-family: 'Cormorant Garamond', serif;
+          margin: 0 30px;
+          text-align: center;
+        }
       }
     }
   }

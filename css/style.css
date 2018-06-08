@@ -14,7 +14,7 @@
       display: none; }
       header .menu li a {
         text-decoration: none;
-        color: white; }
+        color: black; }
   header .header-box {
     background-color: #232323;
     max-width: 450px;
@@ -26,11 +26,11 @@
     header .header-box div {
       display: flex;
       justify-content: flex-end;
-      margin-top: 50px;
+      margin-top: 80px;
       margin-right: 20px; }
       header .header-box div img {
-        width: 50px;
-        height: 50px; }
+        width: 30px;
+        height: 30px; }
       header .header-box div .close {
         display: none;
         width: 30px;
@@ -86,12 +86,14 @@
     .header-restaurant .header-box .close {
       display: none; }
 
-  .box-1 {
+  section {
+    display: flex;
+    flex-direction: row;
     margin-top: -70px;
     height: 700px;
     background-image: url("../images/img2.jpg");
     background-size: cover; }
-    .box-1 .about {
+    section .box-1 .about {
       width: 350px;
       height: 700px;
       background-color: rgba(106, 109, 108, 0.5);
@@ -99,17 +101,17 @@
       justify-content: center;
       flex-direction: column;
       align-items: center; }
-      .box-1 .about .description {
+      section .box-1 .about .description {
         font-size: 30px;
         font-family: 'Cormorant Garamond', serif; }
-      .box-1 .about hr {
+      section .box-1 .about hr {
         width: 250px;
         color: black;
         margin: 50px 40px;
         background-color: black;
         height: 1px;
         border: 0; }
-      .box-1 .about .story {
+      section .box-1 .about .story {
         font-size: 16px;
         font-family: 'Cormorant Garamond', serif;
         margin: 0 30px;
