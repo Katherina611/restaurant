@@ -1,0 +1,40 @@
+
+@media(max-width: 450px){
+
+}
+
+@media (min-width: 450px) {
+  .section-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .box-2{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      width:950px;
+      height: 600px;
+      background-color: rgba(106, 109, 108,0.5);
+      margin-top: 100px;
+      .dish{
+        font-family: 'Cormorant Garamond', serif;
+        font-size: 20px;
+        font-weight: 900;
+        p{
+          font-size: 18px;
+          font-weight: 400;
+        }
+        hr{
+          width:300px;
+          color:black;
+          margin: 0 40px;
+          background-color: black;
+          height: 1px;
+          border: 0;
+        }
+      }
+    }
+  }
+}
