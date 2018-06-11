@@ -1,0 +1,206 @@
+@media(max-width: 450px){
+  .header{
+    .menu{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      li {
+        list-style: none;
+        margin-left: 10px;
+        display: none;
+        a {
+          text-decoration: none;
+          color:white;
+        }
+      }
+    }
+    .header-box{
+      background-color: rgb(35, 35, 35);
+      height: 750px;
+      max-width:450px;
+      margin-top: -50px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      color:white;
+      div{
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 50px;
+        margin-right: 20px;
+        img{
+          width:50px;
+          height: 50px;
+        }
+        .close{
+          display: none;
+          width:30px;
+          height: 30px;
+        }
+      }
+      .name, .welcome, .reservetion{
+        font-size: 26px;
+        font-family: 'Cormorant Garamond', serif;
+        margin: 20px 0;
+        text-align: center;
+      }
+      hr{
+        color:white;
+        margin: 0 40px;
+        background-color: white;
+        height: 1px;
+        border: 0;
+      }
+      .lorem{
+        font-size: 18px;
+        font-family: 'Cormorant Garamond', serif;
+        margin: 0 40px;
+        text-align: center;
+      }
+      .date, .person{
+        border: 1px solid white;
+        font-family: 'Cormorant Garamond', serif;
+        font-size: 18px;
+        width:300px;
+        justify-content: center;
+        margin-left: 20px;
+        padding:5px;
+        margin-top: 20px;
+        input,select{
+          font-family: 'Cormorant Garamond', serif;
+          background-color:rgba(106, 109, 108,0);
+          border: 0;
+          text-align: center;
+          height: 30px;
+          font-size: 16px;
+          margin-left: 20px;
+          color:white;
+          option{
+            font-family: 'Cormorant Garamond', serif;
+            background-color:rgb(35,35,35);
+            border: 0;
+          }
+        }
+      }
+      input[type='submit']{
+        font-family: 'Cormorant Garamond', serif;
+        font-size: 18px;
+        width:310px;
+        margin-left: 20px;
+        background-color:rgb(35,35,35);
+        border: 1px solid white;
+        height: 40px;
+        margin-bottom: 10px;
+        margin-top: 20px;
+        color:white;
+      }
+      .adress{
+        font-size: 16px;
+        font-family: 'Cormorant Garamond', serif;
+        text-align: center;
+        margin-top: 5px;
+      }
+    }
+  }
+}
+@media(min-width: 450px){
+  .header{
+    height:700px;
+    background-image: url("../images/img2.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    .menu {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      li {
+        list-style: none;
+        margin-top: 50px;
+        margin-left: 40px;
+        a {
+          text-decoration: none;
+          color:grey;
+          text-transform: uppercase;
+        }
+      }
+    }
+    .header-box{
+      background-color: rgba(106, 109, 108,0.5);
+      height: 750px;
+      width:350px;
+      margin-top: -50px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      img{
+        display: none;
+      }
+      .close{
+        display: none;
+      }
+      .name, .welcome, .reservetion{
+        font-size: 26px;
+        font-family: 'Cormorant Garamond', serif;
+        margin: 20px 0;
+        text-align: center;
+      }
+      hr{
+        color:black;
+        margin: 0 40px;
+        background-color: black;
+        height: 1px;
+        border: 0;
+      }
+      .lorem{
+        font-size: 18px;
+        font-family: 'Cormorant Garamond', serif;
+        margin: 0 40px;
+        text-align: center;
+      }
+      .date, .person{
+        border: 1px solid black;
+        font-family: 'Cormorant Garamond', serif;
+        font-size: 18px;
+        width:300px;
+        justify-content: center;
+        margin-left: 20px;
+        padding:5px;
+        margin-top: 20px;
+        input,select{
+          font-family: 'Cormorant Garamond', serif;
+          background-color:rgba(106, 109, 108,0);
+          border: 0;
+          text-align: center;
+          height: 30px;
+          font-size: 16px;
+          margin-left: 20px;
+          option{
+            font-family: 'Cormorant Garamond', serif;
+            background-color:rgb(103, 87, 79);
+            border: 0;
+          }
+        }
+      }
+      input[type='submit']{
+        font-family: 'Cormorant Garamond', serif;
+        font-size: 18px;
+        width:310px;
+        margin-left: 20px;
+        background-color:rgba(106, 109, 108,0);
+        border: 1px solid black;
+        height: 40px;
+        margin-bottom: 10px;
+        margin-top: 20px;
+      }
+      .adress{
+        font-size: 16px;
+        font-family: 'Cormorant Garamond', serif;
+        text-align: center;
+        margin-top: 5px;
+      }
+    }
+  }
+}
