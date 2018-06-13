@@ -500,20 +500,20 @@
         .section-2 .box-4 form input {
           width: 500px;
           height: 25px;
-          background-color: rgba(106, 109, 108, 0.5);
+          background-color: rgba(106, 109, 108, 0);
           border: 1px solid black;
           margin-top: 10px;
           font-size: 16px; }
         .section-2 .box-4 form textarea {
           width: 500px;
           height: 80px;
-          background-color: rgba(106, 109, 108, 0.5);
+          background-color: rgba(106, 109, 108, 0);
           border: 1px solid black;
           margin-top: 10px;
           font-size: 16px; }
         .section-2 .box-4 form input[type='submit'] {
           width: 50px;
           height: 25px;
-          background-color: rgba(106, 109, 108, 0.5); } }
+          background-color: rgba(106, 109, 108, 0); } }
 
 /*# sourceMappingURL=style.css.map */
