@@ -446,14 +446,14 @@
         background-color: black;
         height: 1px;
         border: 0; }
-      .box-4 .dish-order .starter-1 {
+      .box-4 .dish-order .starter-1, .box-4 .dish-order .starter-2 {
         display: flex;
         flex-direction: row; }
-        .box-4 .dish-order .starter-1 .bruschetta {
+        .box-4 .dish-order .starter-1 .bruschetta, .box-4 .dish-order .starter-1 .carpaccio, .box-4 .dish-order .starter-2 .bruschetta, .box-4 .dish-order .starter-2 .carpaccio {
           width: 200px;
           height: 150px;
           margin-top: 20px; }
-        .box-4 .dish-order .starter-1 p {
+        .box-4 .dish-order .starter-1 p, .box-4 .dish-order .starter-2 p {
           margin: 40px 20px; } }
 @media (max-width: 450px) {
   .section-2 {
