@@ -433,27 +433,49 @@
     font-size: 20px;
     margin: 10px 0; }
 
+  .starters-order {
+    border-right: 2px solid black; }
+
   .box-4 {
     display: flex;
     flex-direction: column; }
-    .box-4 .dish-order {
+    .box-4 .dish-order-1 {
       display: flex;
       flex-direction: column; }
-      .box-4 .dish-order hr {
+      .box-4 .dish-order-1 hr {
         width: 650px;
         color: black;
         margin: 20px 0;
         background-color: black;
         height: 1px;
         border: 0; }
-      .box-4 .dish-order .starter-1, .box-4 .dish-order .starter-2 {
+      .box-4 .dish-order-1 .starter-1, .box-4 .dish-order-1 .starter-2 {
         display: flex;
         flex-direction: row; }
-        .box-4 .dish-order .starter-1 .bruschetta, .box-4 .dish-order .starter-1 .carpaccio, .box-4 .dish-order .starter-2 .bruschetta, .box-4 .dish-order .starter-2 .carpaccio {
+        .box-4 .dish-order-1 .starter-1 .bruschetta, .box-4 .dish-order-1 .starter-1 .carpaccio, .box-4 .dish-order-1 .starter-2 .bruschetta, .box-4 .dish-order-1 .starter-2 .carpaccio {
           width: 200px;
           height: 150px;
           margin-top: 20px; }
-        .box-4 .dish-order .starter-1 p, .box-4 .dish-order .starter-2 p {
+        .box-4 .dish-order-1 .starter-1 p, .box-4 .dish-order-1 .starter-2 p {
+          margin: 40px 20px; }
+    .box-4 .dish-order-2 {
+      display: none;
+      flex-direction: column; }
+      .box-4 .dish-order-2 hr {
+        width: 650px;
+        color: black;
+        margin: 20px 0;
+        background-color: black;
+        height: 1px;
+        border: 0; }
+      .box-4 .dish-order-2 .main-1, .box-4 .dish-order-2 .main-2 {
+        display: flex;
+        flex-direction: row; }
+        .box-4 .dish-order-2 .main-1 .beaf, .box-4 .dish-order-2 .main-1 .carbonara, .box-4 .dish-order-2 .main-2 .beaf, .box-4 .dish-order-2 .main-2 .carbonara {
+          width: 200px;
+          height: 150px;
+          margin-top: 20px; }
+        .box-4 .dish-order-2 .main-1 p, .box-4 .dish-order-2 .main-2 p {
           margin: 40px 20px; } }
 @media (max-width: 450px) {
   .section-2 {
