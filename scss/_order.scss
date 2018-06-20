@@ -70,5 +70,29 @@
         }
       }
     }
+    .dish-order-3{
+      display: none;
+      flex-direction: column;
+      hr{
+        width:650px;
+        color:black;
+        margin: 20px 0;
+        background-color: black;
+        height: 1px;
+        border: 0;
+      }
+      .dessert-1, .dessert-2{
+        display: flex;
+        flex-direction: row;
+        .tiramisu, .panna-cotta{
+          width:200px;
+          height:150px;
+          margin-top: 20px;
+        }
+        p{
+          margin: 40px 20px;
+        }
+      }
+    }
   }
 }

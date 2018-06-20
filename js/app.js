@@ -6,7 +6,8 @@
           $menuIcon = document.querySelector('img'),
           $close = document.querySelector('.close'),
           $starter = document.querySelector('.starters-order'),
-          $main = document.querySelector('.main-dish-order');
+          $main = document.querySelector('.main-dish-order'),
+          $dessert = document.querySelector('.dessert-order');
 
     //event listeners
     document.addEventListener('DOMContentLoaded', documentReady);
@@ -14,6 +15,7 @@
     $close.addEventListener('click',hideMenu);
     $main.addEventListener('click', showMain);
     $starter.addEventListener('click', showStarter);
+    $dessert.addEventListener('click', showDessert);
     //function
 
     //document ready
@@ -28,17 +30,35 @@
     function showMain(){
         const $starters = document.querySelector('.dish-order-1');
         const $mains = document.querySelector('.dish-order-2');
+        const $desserts = document.querySelector('.dish-order-3');
         $starters.style.display = 'none';
         $starter.style.borderRight = '0';
         $mains.style.display = 'flex';
         $main.style.borderRight = '2px solid black';
+        $desserts.style.display = 'none';
+        $dessert.style.borderRight = '0';
     }
 
     function showStarter(){
         const $starters = document.querySelector('.dish-order-1');
         const $mains = document.querySelector('.dish-order-2');
+        const $desserts = document.querySelector('.dish-order-3');
         $starters.style.display = 'flex';
         $starter.style.borderRight = '2px solid black';
+        $mains.style.display = 'none';
+        $main.style.borderRight = '0';
+        $desserts.style.display = 'none';
+        $dessert.style.borderRight = '0';
+    }
+
+    function showDessert(){
+        const $starters = document.querySelector('.dish-order-1');
+        const $mains = document.querySelector('.dish-order-2');
+        const $desserts = document.querySelector('.dish-order-3');
+        $desserts.style.display = 'flex';
+        $dessert.style.borderRight = '2px solid black';
+        $starters.style.display = 'none';
+        $starter.style.borderRight = '0';
         $mains.style.display = 'none';
         $main.style.borderRight = '0';
     }
