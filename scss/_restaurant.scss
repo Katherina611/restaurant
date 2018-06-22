@@ -148,6 +148,8 @@
     height: 700px;
     background-image: url("../images/img2.jpg");
     background-size: cover;
+    justify-content: center;
+    align-items: center;
     .box-1 {
       .about {
         width: 350px;
@@ -180,7 +182,7 @@
     .box-desc {
       margin-top: 100px;
       .about-2 {
-        width: 800px;
+        width: 900px;
         height: 600px;
         background-color: rgba(106, 109, 108, 0.5);
         display: flex;

@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="fc3219ff-2417-435b-97a2-681a7995a060" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css.map" afterPath="$PROJECT_DIR$/css/style.css.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/_restaurant.scss" afterPath="$PROJECT_DIR$/scss/_restaurant.scss" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -60,8 +61,8 @@
       <file leaf-file-name="_restaurant.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scss/_restaurant.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="102" column="17" lean-forward="false" selection-start-line="102" selection-start-column="17" selection-end-line="102" selection-end-column="17" />
+            <state relative-caret-position="147">
+              <caret line="184" column="16" lean-forward="false" selection-start-line="184" selection-start-column="16" selection-end-line="184" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -222,12 +223,12 @@
       <workItem from="1529404722519" duration="4995000" />
       <workItem from="1529496045970" duration="1864000" />
       <workItem from="1529586177784" duration="2032000" />
-      <workItem from="1529679836805" duration="1307000" />
+      <workItem from="1529679836805" duration="1446000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57304000" />
+    <option name="totallyTimeSpent" value="57443000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="128" y="145" width="1097" height="632" extended-state="0" />
@@ -593,8 +594,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scss/_restaurant.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="102" column="17" lean-forward="false" selection-start-line="102" selection-start-column="17" selection-end-line="102" selection-end-column="17" />
+        <state relative-caret-position="147">
+          <caret line="184" column="16" lean-forward="false" selection-start-line="184" selection-start-column="16" selection-end-line="184" selection-end-column="16" />
           <folding />
         </state>
       </provider>
