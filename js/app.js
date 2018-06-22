@@ -13,9 +13,6 @@
     document.addEventListener('DOMContentLoaded', documentReady);
     $menuIcon.addEventListener('click',showMenu);
     $close.addEventListener('click',hideMenu);
-    $main.addEventListener('click', showMain);
-    $starter.addEventListener('click', showStarter);
-    $dessert.addEventListener('click', showDessert);
     //function
 
     //document ready
@@ -24,6 +21,12 @@
         if(calendar){
             //added calendar
             $('#datetime').datetimepicker();
+        }
+        const dish = document.querySelector('.section-2');
+        if(dish){
+            $main.addEventListener('click', showMain);
+            $starter.addEventListener('click', showStarter);
+            $dessert.addEventListener('click', showDessert);
         }
     }
 

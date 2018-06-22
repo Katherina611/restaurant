@@ -236,6 +236,39 @@
         font-size: 16px;
         font-family: 'Cormorant Garamond', serif;
         margin: 0 30px;
+        text-align: center; }
+
+  .box-desc {
+    height: 700px;
+    background-image: url("../images/img2.jpg");
+    background-size: cover; }
+    .box-desc .about-2 {
+      max-width: 450px;
+      height: 700px;
+      margin-top: -20px;
+      background-color: rgba(106, 109, 108, 0.5);
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center; }
+      .box-desc .about-2 .description-2 {
+        font-size: 30px;
+        font-family: 'Cormorant Garamond', serif; }
+      .box-desc .about-2 hr {
+        width: 250px;
+        color: black;
+        margin: 50px 40px;
+        background-color: black;
+        height: 1px;
+        border: 0; }
+      .box-desc .about-2 img {
+        width: 200px;
+        height: 120px;
+        margin-bottom: 50px; }
+      .box-desc .about-2 .story {
+        font-size: 16px;
+        font-family: 'Cormorant Garamond', serif;
+        margin: 0 30px;
         text-align: center; } }
 @media (min-width: 450px) {
   .header-restaurant {
@@ -288,7 +321,36 @@
         font-size: 16px;
         font-family: 'Cormorant Garamond', serif;
         margin: 0 30px;
-        text-align: center; } }
+        text-align: center; }
+    section .box-desc {
+      margin-top: 100px; }
+      section .box-desc .about-2 {
+        width: 800px;
+        height: 600px;
+        background-color: rgba(106, 109, 108, 0.5);
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center; }
+        section .box-desc .about-2 .description-2 {
+          font-size: 30px;
+          font-family: 'Cormorant Garamond', serif; }
+        section .box-desc .about-2 hr {
+          width: 250px;
+          color: black;
+          margin: 50px 40px;
+          background-color: black;
+          height: 1px;
+          border: 0; }
+        section .box-desc .about-2 img {
+          width: 450px;
+          height: 250px;
+          margin-bottom: 50px; }
+        section .box-desc .about-2 .story {
+          font-size: 16px;
+          font-family: 'Cormorant Garamond', serif;
+          margin: 0 30px;
+          text-align: center; } }
 @media (max-width: 450px) {
   .header-menu .menu {
     display: flex;
