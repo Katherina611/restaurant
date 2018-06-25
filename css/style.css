@@ -483,6 +483,118 @@
         .section-1 .box-2 .dish span, .section-1 .box-2 .main-dish span, .section-1 .box-2 .dessert span {
           font-size: 16px;
           font-weight: 400; } }
+@media (max-width: 450px) {
+  .lunch-menu {
+    font-size: 20px;
+    font-weight: 700;
+    margin: 40px 30px;
+    display: flex;
+    justify-content: center; }
+
+  .starters-order {
+    border-right: 2px solid black; }
+
+  .box-4 {
+    display: flex;
+    flex-direction: column; }
+    .box-4 .dish-order-1 {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-top: 20px; }
+      .box-4 .dish-order-1 hr {
+        width: 250px;
+        color: white;
+        margin: 20px 0;
+        background-color: white;
+        height: 1px;
+        border: 0; }
+      .box-4 .dish-order-1 .starter-1, .box-4 .dish-order-1 .starter-2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px; }
+        .box-4 .dish-order-1 .starter-1 .bruschetta, .box-4 .dish-order-1 .starter-1 .carpaccio, .box-4 .dish-order-1 .starter-2 .bruschetta, .box-4 .dish-order-1 .starter-2 .carpaccio {
+          width: 200px;
+          height: 150px;
+          margin-top: 20px; }
+        .box-4 .dish-order-1 .starter-1 p, .box-4 .dish-order-1 .starter-2 p {
+          margin: 40px 20px;
+          text-align: center; }
+    .box-4 .dish-order-2 {
+      display: none;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-top: 20px; }
+      .box-4 .dish-order-2 hr {
+        width: 250px;
+        color: white;
+        margin: 20px 0;
+        background-color: white;
+        height: 1px;
+        border: 0; }
+      .box-4 .dish-order-2 .main-1, .box-4 .dish-order-2 .main-2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px; }
+        .box-4 .dish-order-2 .main-1 .beaf, .box-4 .dish-order-2 .main-1 .carbonara, .box-4 .dish-order-2 .main-2 .beaf, .box-4 .dish-order-2 .main-2 .carbonara {
+          width: 200px;
+          height: 150px;
+          margin-top: 20px; }
+        .box-4 .dish-order-2 .main-1 p, .box-4 .dish-order-2 .main-2 p {
+          margin: 40px 20px;
+          text-align: center; }
+    .box-4 .dish-order-3 {
+      display: none;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-top: 20px; }
+      .box-4 .dish-order-3 hr {
+        width: 250px;
+        color: white;
+        margin: 20px 0;
+        background-color: white;
+        height: 1px;
+        border: 0; }
+      .box-4 .dish-order-3 .dessert-1, .box-4 .dish-order-3 .dessert-2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px; }
+        .box-4 .dish-order-3 .dessert-1 .tiramisu, .box-4 .dish-order-3 .dessert-1 .panna-cotta, .box-4 .dish-order-3 .dessert-2 .tiramisu, .box-4 .dish-order-3 .dessert-2 .panna-cotta {
+          width: 200px;
+          height: 150px;
+          margin-top: 20px; }
+        .box-4 .dish-order-3 .dessert-1 p, .box-4 .dish-order-3 .dessert-2 p {
+          margin: 40px 20px;
+          text-align: center; }
+    .box-4 .basket-order {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      font-size: 20px; }
+      .box-4 .basket-order .basket {
+        width: 100px;
+        height: 100px;
+        margin-top: 20px; }
+    .box-4 .basket-desc {
+      text-align: center;
+      margin: 20px 30px; }
+    .box-4 hr {
+      width: 150px;
+      color: white;
+      margin: 20px 0;
+      background-color: white;
+      height: 1px;
+      border: 0; } }
 @media (min-width: 450px) {
   .lunch-menu {
     font-size: 20px;

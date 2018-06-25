@@ -1,5 +1,135 @@
 @media(max-width: 450px){
-
+  .lunch-menu{
+    font-size: 20px;
+    font-weight: 700;
+    margin: 40px 30px;
+    display: flex;
+    justify-content: center;
+  }
+  .starters-order{
+    border-right: 2px solid black;
+  }
+  .box-4{
+    display: flex;
+    flex-direction: column;
+    .dish-order-1{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-top: 20px;
+      hr{
+        width:250px;
+        color:white;
+        margin: 20px 0;
+        background-color: white;
+        height: 1px;
+        border: 0;
+      }
+      .starter-1, .starter-2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        .bruschetta, .carpaccio{
+          width:200px;
+          height:150px;
+          margin-top: 20px;
+        }
+        p{
+          margin: 40px 20px;
+          text-align: center;
+        }
+      }
+    }
+    .dish-order-2{
+      display: none;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-top: 20px;
+      hr{
+        width:250px;
+        color:white;
+        margin: 20px 0;
+        background-color: white;
+        height: 1px;
+        border: 0;
+      }
+      .main-1, .main-2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        .beaf, .carbonara{
+          width:200px;
+          height:150px;
+          margin-top: 20px;
+        }
+        p{
+          margin: 40px 20px;
+          text-align: center;
+        }
+      }
+    }
+    .dish-order-3{
+      display: none;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-top: 20px;
+      hr{
+        width:250px;
+        color:white;
+        margin: 20px 0;
+        background-color: white;
+        height: 1px;
+        border: 0;
+      }
+      .dessert-1, .dessert-2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        .tiramisu, .panna-cotta{
+          width:200px;
+          height:150px;
+          margin-top: 20px;
+        }
+        p{
+          margin: 40px 20px;
+          text-align: center;
+        }
+      }
+    }
+    .basket-order{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      font-size: 20px;
+      .basket{
+        width:100px;
+        height:100px;
+        margin-top: 20px;
+      }
+    }
+    .basket-desc{
+      text-align: center;
+      margin:20px 30px;
+    }
+    hr{
+      width:150px;
+      color:white;
+      margin: 20px 0;
+      background-color: white;
+      height: 1px;
+      border: 0;
+    }
+  }
 }
 
 @media(min-width: 450px){
