@@ -22,7 +22,7 @@
             //added calendar
             $('#datetime').datetimepicker();
         }
-        const dish = document.querySelector('.section-2');
+        const dish = document.querySelector('.menu-list');
         if(dish){
             $main.addEventListener('click', showMain);
             $starter.addEventListener('click', showStarter);
