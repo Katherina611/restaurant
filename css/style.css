@@ -297,8 +297,7 @@
     flex-direction: row;
     margin-top: -70px;
     height: 700px;
-    background-image: url("../images/img2.jpg");
-    background-size: cover;
+    background-color: black;
     justify-content: center;
     align-items: center; }
     section .box-1 .about {
@@ -634,6 +633,9 @@
           margin-top: 20px; }
         .box-4 .dish-order-1 .starter-1 p, .box-4 .dish-order-1 .starter-2 p {
           margin: 40px 20px; }
+        .box-4 .dish-order-1 .starter-1 .plus, .box-4 .dish-order-1 .starter-2 .plus {
+          width: 30px;
+          height: 30px; }
     .box-4 .dish-order-2 {
       display: none;
       flex-direction: column; }
@@ -653,6 +655,9 @@
           margin-top: 20px; }
         .box-4 .dish-order-2 .main-1 p, .box-4 .dish-order-2 .main-2 p {
           margin: 40px 20px; }
+        .box-4 .dish-order-2 .main-1 .plus, .box-4 .dish-order-2 .main-2 .plus {
+          width: 30px;
+          height: 30px; }
     .box-4 .dish-order-3 {
       display: none;
       flex-direction: column; }
@@ -672,6 +677,9 @@
           margin-top: 20px; }
         .box-4 .dish-order-3 .dessert-1 p, .box-4 .dish-order-3 .dessert-2 p {
           margin: 40px 20px; }
+        .box-4 .dish-order-3 .dessert-1 .plus, .box-4 .dish-order-3 .dessert-2 .plus {
+          width: 30px;
+          height: 30px; }
     .box-4 .basket-order {
       display: flex;
       flex-direction: column;
