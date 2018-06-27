@@ -14,9 +14,7 @@
     document.addEventListener('DOMContentLoaded', documentReady);
     $menuIcon.addEventListener('click',showMenu);
     $close.addEventListener('click',hideMenu);
-    $plus.forEach(plus =>{
-        plus.addEventListener('click', addDish)
-    });
+
     //function
 
     //document ready
@@ -31,6 +29,9 @@
             $main.addEventListener('click', showMain);
             $starter.addEventListener('click', showStarter);
             $dessert.addEventListener('click', showDessert);
+            $plus.forEach(plus =>{
+                plus.addEventListener('click', addDish)
+            });
         }
     }
 
@@ -88,10 +89,16 @@
     }
     function addDish(){
         let $item = $(this).prev().data("name");
-        console.log($item);
+        let price = $(this).prev().data("id");
         let $li = document.createElement('li');
         $li.innerText = $item;
         $('.list-order').append($li);
+        /*
+        let basket = document.querySelector('.basket-price');
+        let sum = 0;
+        sum += price;
+        basket.textContent = 'Subtotal: ' + sum + "$";
+        */
     }
 
 })();
