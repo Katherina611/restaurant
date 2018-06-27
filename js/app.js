@@ -9,6 +9,7 @@
           $main = document.querySelector('.main-dish-order'),
           $dessert = document.querySelector('.dessert-order'),
           $plus = document.querySelectorAll('.plus');
+    let sum = 0;
 
         //event listeners
     document.addEventListener('DOMContentLoaded', documentReady);
@@ -91,14 +92,12 @@
         let $item = $(this).prev().data("name");
         let price = $(this).prev().data("id");
         let $li = document.createElement('li');
+        $li.dataset.id = price;
         $li.innerText = $item;
         $('.list-order').append($li);
-        /*
         let basket = document.querySelector('.basket-price');
-        let sum = 0;
         sum += price;
         basket.textContent = 'Subtotal: ' + sum + "$";
-        */
     }
 
 })();

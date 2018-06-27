@@ -522,6 +522,9 @@
         .box-4 .dish-order-1 .starter-1 p, .box-4 .dish-order-1 .starter-2 p {
           margin: 40px 20px;
           text-align: center; }
+        .box-4 .dish-order-1 .starter-1 .plus, .box-4 .dish-order-1 .starter-2 .plus {
+          width: 30px;
+          height: 30px; }
     .box-4 .dish-order-2 {
       display: none;
       flex-direction: column;
@@ -548,6 +551,9 @@
         .box-4 .dish-order-2 .main-1 p, .box-4 .dish-order-2 .main-2 p {
           margin: 40px 20px;
           text-align: center; }
+        .box-4 .dish-order-2 .main-1 .plus, .box-4 .dish-order-2 .main-2 .plus {
+          width: 30px;
+          height: 30px; }
     .box-4 .dish-order-3 {
       display: none;
       flex-direction: column;
@@ -574,6 +580,9 @@
         .box-4 .dish-order-3 .dessert-1 p, .box-4 .dish-order-3 .dessert-2 p {
           margin: 40px 20px;
           text-align: center; }
+        .box-4 .dish-order-3 .dessert-1 .plus, .box-4 .dish-order-3 .dessert-2 .plus {
+          width: 30px;
+          height: 30px; }
     .box-4 .basket-order {
       display: flex;
       flex-direction: column;
