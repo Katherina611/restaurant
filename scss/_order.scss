@@ -141,6 +141,12 @@
       height: 1px;
       border: 0;
     }
+    .list-order{
+      margin-bottom: 10px;
+      li{
+        margin-bottom: 5px;
+      }
+    }
   }
 }
 
@@ -271,6 +277,12 @@
       background-color: black;
       height: 1px;
       border: 0;
+    }
+    .list-order{
+      margin-bottom: 20px;
+      li{
+        margin-bottom: 5px;
+      }
     }
   }
 }

@@ -602,7 +602,11 @@
       margin: 20px 0;
       background-color: white;
       height: 1px;
-      border: 0; } }
+      border: 0; }
+    .box-4 .list-order {
+      margin-bottom: 10px; }
+      .box-4 .list-order li {
+        margin-bottom: 5px; } }
 @media (min-width: 450px) {
   .lunch-menu {
     font-size: 20px;
@@ -708,7 +712,11 @@
       margin: 20px 0;
       background-color: black;
       height: 1px;
-      border: 0; } }
+      border: 0; }
+    .box-4 .list-order {
+      margin-bottom: 20px; }
+      .box-4 .list-order li {
+        margin-bottom: 5px; } }
 @media (max-width: 450px) {
   .section-2 {
     display: flex;
