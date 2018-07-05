@@ -8,7 +8,12 @@
           $starter = document.querySelector('.starters-order'),
           $main = document.querySelector('.main-dish-order'),
           $dessert = document.querySelector('.dessert-order'),
-          $plus = document.querySelectorAll('.plus');
+          $plus = document.querySelectorAll('.plus'),
+          $name = document.querySelector('#name'),
+          $sendBtn = document.querySelector('#send'),
+          $email = document.querySelector('#email'),
+          $subject = document.querySelector('#subject'),
+          $message = document.querySelector('#message');
     let sum = 0;
 
         //event listeners
@@ -33,6 +38,14 @@
             $plus.forEach(plus =>{
                 plus.addEventListener('click', addDish)
             });
+        }
+        const form = document.querySelector('form');
+        if(form){
+            $sendBtn.disabled = true;
+            $name.addEventListener('blur', validateField);
+            $email.addEventListener('blur', validateField);
+            $subject.addEventListener('blur', validateField);
+            $message.addEventListener('blur', validateField);
         }
     }
 
@@ -98,6 +111,53 @@
         let basket = document.querySelector('.basket-price');
         sum += price;
         basket.textContent = 'Subtotal: ' + sum + "$";
+    }
+
+    function validateLength(field){
+        if(field.value.length>0){
+            field.style.border = '2px solid rgb(79, 76, 69)';
+        }else{
+            $email.style.border = '2px solid darkred'
+        }
+    }
+
+    function validateEmail(email){
+        let emailText = email.value;
+        if(emailText.indexOf('@') !== -1){
+            email.style.border = '2px solid rgb(79, 76, 69)'
+        }else{
+            email.style.border = '2px solid darkred'
+        }
+    }
+
+    function validateField() {
+        validateLength(this);
+        if (this.type === 'email') {
+            validateEmail(this)
+        }
+        if ($email.value !== '' && $subject.value !== '' && $message.value !== '' && $name.value !== '') {
+            $sendBtn.disabled = false;
+            $sendBtn.addEventListener('click', sendMessage);
+        }else{
+            $sendBtn.disabled = true;
+        }
+    }
+
+    function sendMessage(event){
+        event.preventDefault();
+        let emailForm = $email.value;
+        let nameForm = $name.value;
+        let messageForm = $message.value;
+        let subjectForm = $subject.value;
+        console.log(nameForm, emailForm, messageForm, subjectForm);
+        $name.value = 'Name *';
+        $email.value = 'Email *';
+        $subject.value = 'Subject *';
+        $message.value = 'Message *';
+        $name.style.border = '1px solid rgb(79, 76, 69)';
+        $email.style.border = '1px solid rgb(79, 76, 69)';
+        $subject.style.border = '1px solid rgb(79, 76, 69)';
+        $message.style.border = '1px solid rgb(79, 76, 69)';
     }
 
 })();
