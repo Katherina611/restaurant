@@ -154,10 +154,10 @@
         $email.value = 'Email *';
         $subject.value = 'Subject *';
         $message.value = 'Message *';
-        $name.style.border = '1px solid rgb(79, 76, 69)';
-        $email.style.border = '1px solid rgb(79, 76, 69)';
-        $subject.style.border = '1px solid rgb(79, 76, 69)';
-        $message.style.border = '1px solid rgb(79, 76, 69)';
+        $name.style.border = '1px solid black';
+        $email.style.border = '1px solid black';
+        $subject.style.border = '1px solid black';
+        $message.style.border = '1px solid black';
     }
 
 })();
